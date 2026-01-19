@@ -1,0 +1,2 @@
+# End-to-End-Sales-Analysis-Dashboard-Using-Power-BI
+This project focuses on building an end-to-end Sales Analysis Dashboard using Power BI, aimed at tracking business performance across revenue, profit, orders, customers, products, and returns. The project demonstrates real-world Power BI skills, including data modeling, Power Query transformations, advanced DAX measures, and interactive reports.
