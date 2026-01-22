@@ -6,9 +6,10 @@ In this project, we perform sales data analysis to track business performance ac
 - [Data Source](#data-source)
 - [Data Cleaning & Preparation](#data-cleaning--preparation)
 - [Data Modeling](#data-modeling)
-- [Live Dashboard](#live-dashboard)
-- [Inferences](#inferences)
+- [Dashboard Pages & Features](#dashboard-pages--features)
+- [Insights](#insights)
 - [Recommendations](#recommendations)
+- [Tools & Technologies](#tools--technologies)
 
 ## Project Overview
 This project focuses on building an end-to-end Sales Analysis Dashboard using Power BI, aimed at tracking business performance across revenue, profit, orders, customers, products, and returns.
@@ -90,4 +91,109 @@ Implemented a star schema data model
 
 - Separate Measure Table created to organize all DAX measures
 
-## 
+## Dashboard Pages & Features
+1️⃣ Executive Dashboard
+
+- KPIs:
+
+       Total Revenue
+
+       Total Profit
+
+       Total Orders
+
+       Return Rate
+
+- Revenue trend analysis with time intelligence
+
+- Orders by product category
+
+- Top products by orders, revenue, and return percentage
+
+- Monthly performance vs targets (Orders, Revenue, Profit)
+  
+- Most ordered and most returned product types
+
+- Custom navigation panel and clear-filters functionality using bookmarks
+
+2️⃣ Geographic Analysis (Map Page)
+
+ - Customer distribution across continents
+
+ - Geographic contribution to sales and customers
+
+ - Interactive map visuals for regional insights
+
+
+3️⃣ Product Detail Analysis
+
+ - Product-level drill-down
+
+ - Monthly Orders vs Target (Gauge)
+
+ - Monthly Profit vs Target (Gauge)
+
+ - Profit trend analysis
+
+ - Return % trend over time
+
+ - Dynamic What-If parameter for price adjustment
+
+ - Metric selector (Orders, Profit, Revenue, Returns, Return %)
+
+This page enables scenario analysis and product performance evaluation.
+
+4️⃣Customer Detail Analysis
+
+ - Total customers and average revenue per customer
+
+ - Customer growth trend over time
+
+ - Orders segmented by income level and occupation
+
+ - Top 100 customers by revenue
+
+ - Identification of top customer by revenue
+
+ - Year-based filtering for comparative analysis
+
+## Insights 
+
+ - Revenue and profit show a strong upward trend over time, with seasonal fluctuations
+
+ - Accessories and bikes contribute the highest order volumes
+
+ - Certain high-selling products also exhibit higher return rates, impacting net profit
+
+ - Customer growth accelerates significantly after mid-2021
+
+ - A small subset of customers contributes disproportionately to total revenue
+
+ - Monthly performance frequently misses targets, highlighting optimization opportunities
+
+## Recommendations
+ - Focus on reducing return rates for high-volume products to protect margins
+
+ - Prioritize high-value customers through targeted retention strategies
+
+ - Use price-adjustment scenarios to evaluate profitability before implementing pricing changes
+   
+ - Improve forecasting accuracy by leveraging historical trends and seasonality
+
+ - Monitor category-level performance regularly to optimize inventory and promotions
+
+## Tools & Technologies
+
+    - Power BI
+
+    - Power Query
+
+    - DAX
+
+   -  Star Schema Data Modeling
+
+   -  Interactive Dashboards & Bookmarks
+
+
+
+
