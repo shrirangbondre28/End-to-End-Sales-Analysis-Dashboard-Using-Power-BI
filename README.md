@@ -8,7 +8,7 @@ In this project, we perform sales data analysis to track business performance ac
 - [Data Modeling](#data-modeling)
 - [Dashboard Pages & Features](#dashboard-pages--features)
 - [Insights](#insights)
-- [Recommendations](#recommendations)
+- [Executive Recommendations](#executive-recommendations)
 - [Tools & Technologies](#tools--technologies)
 
 ## Project Overview
@@ -90,6 +90,8 @@ Implemented a star schema data model
 - One-to-many relationships with proper filter direction
 
 - Separate Measure Table created to organize all DAX measures
+### Data Modeling
+![Data Modeling](assets/data_modeling.png)
 
 ## Dashboard Pages & Features
 1️⃣ Executive Dashboard
@@ -116,6 +118,10 @@ Implemented a star schema data model
 
 - Custom navigation panel and clear-filters functionality using bookmarks
 
+ ### Executive Dashboard
+ ![Executive Dashboard](assets/exec_dashboard.png)
+
+
 2️⃣ Geographic Analysis (Map Page)
 
  - Customer distribution across continents
@@ -123,7 +129,8 @@ Implemented a star schema data model
  - Geographic contribution to sales and customers
 
  - Interactive map visuals for regional insights
-
+### Geographic Analysis
+![Geographic Dashboard](assets/map_view.png)
 
 3️⃣ Product Detail Analysis
 
@@ -142,6 +149,8 @@ Implemented a star schema data model
  - Metric selector (Orders, Profit, Revenue, Returns, Return %)
 
 This page enables scenario analysis and product performance evaluation.
+### Product Detail Analysis
+![Product Detail Dashboard](assets/product_detail.png)
 
 4️⃣Customer Detail Analysis
 
@@ -156,6 +165,9 @@ This page enables scenario analysis and product performance evaluation.
  - Identification of top customer by revenue
 
  - Year-based filtering for comparative analysis
+### Customer Detail Analysis
+![Customer Detail Dashboard](assets/customer_detail.png)
+
 
 ## Insights 
 
@@ -171,16 +183,25 @@ This page enables scenario analysis and product performance evaluation.
 
  - Monthly performance frequently misses targets, highlighting optimization opportunities
 
-## Recommendations
- - Focus on reducing return rates for high-volume products to protect margins
+## Executive Recommendations
+ Strategic Priorities for Stakeholder Action
 
- - Prioritize high-value customers through targeted retention strategies
-
- - Use price-adjustment scenarios to evaluate profitability before implementing pricing changes
-   
- - Improve forecasting accuracy by leveraging historical trends and seasonality
-
- - Monitor category-level performance regularly to optimize inventory and promotions
+ ### Reduce Product Return Rates:
+    Address the 2.17% overall return rate, particularly Sport-100 Helmets (3.81% and 2.68% return rates). Implement enhanced quality control and customer feedback loops to minimize       returns and protect          profit   margins.
+ ### Close Monthly Revenue Gap: 
+    Current monthly revenue ($772K) is underperforming against targets. Deploy targeted promotional campaigns and seasonal marketing initiatives to bridge the $54K monthly profit gap and   achieve quarterly          objectives.
+ ### Optimize High-Performing Products:
+    Prioritize inventory for top sellers—Water Bottles (3,983 orders) and Accessories (17.0K total orders). Ensure zero stockouts and create strategic product bundles to increase   average order value from           $1.43K.
+ ### Develop VIP Customer Program:
+    Top 100 customers drive disproportionate revenue (e.g., Mr. Maurice Shan: $12.4K from 6 orders). Launch a retention program targeting high-value customers to maximize lifetime       value across the 17.4K        customer base.
+ ### Expand Professional Segment Marketing:
+    With 7.9K orders from Professional occupations, establish B2B partnerships and corporate sales channels to capture additional market share in this high-potential segment.
+ ### Improve Profit Margins: 
+    Despite $24.9M revenue generating $10M profit (40% margin), monthly profit ($1.8M) lags targets significantly. Conduct cost-structure analysis to identify margin enhancement               opportunities           without compromising quality.
+ ### Leverage Revenue Growth Momentum:
+    Capitalize on the consistent upward trend (from $0.5M to $2.0M over 2 years) by scaling successful strategies and replicating high-performing periods across slower months.
+ ### Implement Income-Based Targeting: 
+    Differentiate marketing strategies across income segments (Low: 11.1K, Average: 10.8K, High: 2.8K customers) with tailored product offerings and pricing strategies to maximize   penetration in each segment.
 
 ## Tools & Technologies
 
