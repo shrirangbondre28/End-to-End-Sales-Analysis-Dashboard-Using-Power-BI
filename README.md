@@ -187,7 +187,7 @@ This page enables scenario analysis and product performance evaluation.
  Strategic Priorities for Stakeholder Action
 
  ### Reduce Product Return Rates:
-    Address the 2.17% overall return rate, particularly Sport-100 Helmets (3.81% and 2.68% return rates). Implement enhanced quality control and customer feedback loops to minimize       returns and protect          profit   margins.
+    Address the 2.17% overall return rate, particularly Sport-100 Helmets (3.81% and 2.68% return rates). Implement enhanced quality control and customer feedback loops to minimize       returns and protect profit   margins.
  ### Close Monthly Revenue Gap: 
     Current monthly revenue ($772K) is underperforming against targets. Deploy targeted promotional campaigns and seasonal marketing initiatives to bridge the $54K monthly profit gap and   achieve quarterly          objectives.
  ### Optimize High-Performing Products:
