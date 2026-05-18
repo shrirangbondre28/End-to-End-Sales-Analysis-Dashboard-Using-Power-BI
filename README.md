@@ -1,5 +1,5 @@
 ## 🚴Power BI-Sales-Analysis-Dashboard
-In this project, we perform sales data analysis to track business performance across revenue, profit, orders, customers, and returns using Power BI.
+In this project, I performed sales data analysis to track business performance across revenue, profit, orders, customers, and returns using Power BI.
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Problem Statement](#problem-statement)
